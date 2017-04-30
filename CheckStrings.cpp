@@ -35,6 +35,7 @@ int main()
 		  //    cout<<source<<' '<<char(label)<<' '<<destination<<endl;
 		  
 	  }
+	
 	  
 	  for(int i=0;i<no_of_final_states;i++)//up(0,no_of_final_states,i)
 	  {
