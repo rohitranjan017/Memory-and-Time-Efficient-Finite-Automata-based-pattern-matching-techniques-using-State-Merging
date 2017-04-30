@@ -1,3 +1,6 @@
+/*
+* Check whether the string is accepted by the DFA or not
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
