@@ -34,7 +34,7 @@ int main()
 		tra.pb({{cur,s[i][j]-'a'+1},++cur});
 		
 		en.push_back(cur);
-			
+		
 	}
 	
 	cout<<cur+1<<" "<<26<<endl;//pd(cur+1,26);
