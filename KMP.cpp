@@ -35,6 +35,7 @@ bool KMP(string pattern, string target)
             i++;
             k = 0;
         }
+	    
         else if (target[i] == pattern[k])
         {
             i++;
