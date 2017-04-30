@@ -35,7 +35,6 @@ void epsilonClosure(int state,bitset<100005> &closure)
 		}
 	}
 }
-
 void NFAmove(int X, int A, bitset<100005> &Y)
 {
 	
