@@ -34,7 +34,8 @@ void merge(long long int original_state,long long int current_state)//merging fo
 			  else
 			      merge(t_table[row_t_table[occurrence[current_state][k].F]],occurrence[current_state][k].F);
 		  }
-		  else
+		  
+		 else
 		  {
 			  tf_table.erase(row_t_table[occurrence[current_state][k].F]);
 			  row_t_table[occurrence[current_state][k].F][occurrence[current_state][k].S-1]=original_state;
